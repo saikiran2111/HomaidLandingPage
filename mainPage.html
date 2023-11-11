@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homaid Services</title>
+    <script src="https://kit.fontawesome.com/0175ddf0d9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mainPage.css">
+</head>
+<body>
+    <div class="bg-container">
+        <section class="navbar">
+            <img src="./logo.png" alt="homaid logo" id="homaidLogo" />
+            <div class="options">
+                <a href="#" class="hidden">Home</a>
+                <a href="#" class="hidden">Services</a>
+                <a href="#" class="hidden">Contact us</a>
+                <a href="#" class="hidden">Profile</a>
+            </div>
+        </section>
+        <section class="inner-container hidden">
+            <div class="left">
+                <h1 class="main-heading">Homaid Services</h1>
+                <p class="heading">Quality Service<br/> in <br/> <span class="services">Every Aspect</span></p>
+                <button class="explore-btn">Explore</button>
+            </div>
+            <div class="right">
+                <img src="/CODES/Canva Design/bg-image.png" alt="image">
+            </div>
+        </section>
+        <section class="services-container hidden">
+            <h1 class="services-heading">What we offer?</h1>
+            <div class="cards-container">
+                <div class="card1 hidden">
+                    <img src="/CODES/Canva Design/maid.jpg" alt="maid image" class="card-image">
+                    <div class="content">
+                        <h2 class="h2">Maid Service</h2>
+                        <p>Skilled and trustworthy professionals who will handle all your cleaning needs.</p>
+                        <a href="#">More</a>
+                    </div>
+                </div>
+                <div class="card1 hidden">
+                    <img src="/CODES/Canva Design/cleaning.png" alt="maid image" class="card-image">
+                    <div class="content">
+                        <h2 class="h2">Cleaning Service</h2>
+                        <p>A comprehensive range of cleaning services tailored to your specific requirements.</p>
+                        <a href="#">More</a>
+                    </div>
+                </div>
+                <div class="card1 hidden">
+                    <img src="/CODES/Canva Design/cooking.jpeg" alt="maid image" class="card-image">
+                    <div class="content">
+                        <h2 class="h2">Cooking Service</h2>
+                        <p>Experienced chefs who will prepare delicious and nutritious meals in you're comfort place.</p>
+                        <a href="#">More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-us-container hidden">
+            <div class="left-container hidden">
+                <h1 class="contact-us-heading">How can we <br/> help you?</h1>
+                <p class="contact-us-description">Thank you for showing interest in HOMAID,  Please use this form to contact us. <br/> We will get back to you as soon as we can. </p>
+            </div>
+            <div class="right-container hidden">
+                <form action="#" method="post">
+                    <h2 class="form-details-heading">Full Name:</h2>
+                    <input type="text" id="fullname" name="fullname" required>
+
+                    <br>
+
+                    <h2 class="form-details-heading">Phone Number:</h2>
+                    <input type="number" id="phonenumber" name="fullname" required>
+
+                    <br>
+
+                    <h2 class="form-details-heading">Email:</h2>
+                    <input type="email" id="email" name="fullname">
+
+                    <br>
+
+                    <h2 class="form-details-heading">Interested In:</h2>
+                    <select name="Interest" required>
+                        <option value="default">Select</option>
+                        <option value="item1">Maid Service</option>
+                        <option value="item2">Cleaning Service</option>
+                        <option value="item3">Cooking Service</option>
+                    </select>
+            
+                    <br>
+
+                    <h2 class="form-details-heading">Message:</h2>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <br>
+
+                    <button type="submit" class="form-submit-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section class="footer-section">
+            <div class="contact">
+                <h1 class="contact-heading">CONTACT</h1>
+                <p class="address">Street 2017 Harron Drive <br> City Baitimore <br> State full Maryland <br> Zip code 21201 <br> Phone Number: 443-498-7166 <br> Mobile Number: 443-934-9384</p>
+            </div>
+            <div class="contact">
+                <h1 class="contact-heading">MENU</h1>
+                <a class="address">Home</a>
+                <a class="address">Services</a>
+                <a class="address">About</a>
+                <a class="address">Home</a>
+                <a class="address">Contact</a>
+            </div>
+            <div class="contact">
+                <h1 class="contact-heading">NEWSLETTER</h1>
+                <div class="search-section">
+                    <div class="search-box">
+                        <input type="search" class="news-search">
+                        <button type="submit" class="form-submit-btn">Submit</button>
+                    </div>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-square-facebook" ></i>
+                        <i class="fa-brands fa-twitter" ></i>
+                        <i class="fa-brands fa-square-instagram" ></i>
+                        <i class="fa-brands fa-square-google-plus" ></i>
+                        <i class="fa-brands fa-linkedin" ></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="copyright hidden">
+            <p class="copyright-text">Copyright &copy; 2023 Homaid, IND</p>
+        </section>
+    </div>
+</body>
+<script src="mainPage.js"></script>
+</html>

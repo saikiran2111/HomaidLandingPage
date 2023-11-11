@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&family=Montserrat:ital,wght@1,300&family=Noto+Sans:ital@1&family=Open+Sans:wght@300&family=Playfair+Display:ital@1&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Sometype+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Poppins:wght@300&family=Source+Serif+4:opsz,wght@8..60,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container{
+    height: 320vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #e7eee3;
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: #000;
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img{
+    margin-left: 40px;
+    height: 160px;
+    width: 160px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar img:hover{
+    height: 180px;
+    width: 180px;
+    transform:scale(1.2);
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Raleway";
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.navbar a:hover{
+    color: red;
+    font-weight: 800;
+}
+
+/* Explore section*/
+
+.inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    width: 95vw;
+    /* border: 1px solid red; */
+    margin-top: 25px;
+}
+
+.main-heading{
+    font-size: 35px;
+    font-family: "Raleway";
+    font-weight: bold;
+    margin-bottom: 25px;
+    
+}
+
+.heading{
+    font-size: 55px;
+    font-family: "Poppins";
+    line-height: 58px;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
+.left{
+    text-align: center;
+    padding: 10px;
+    margin-left: 45px;
+    /* border: 1px solid black; */
+    align-self: center;
+}
+
+.right{
+    /* border: 1px solid red; */
+    align-self: flex-end;
+    margin-left: 75px;
+}
+.right img{
+    height: 550px;
+    width: 650px;
+}
+
+.services{
+    color: green;
+}
+
+.explore-btn{
+    height: 40px;
+    width: 120px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Raleway";
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.explore-btn:hover{
+    background-color: red;
+    color: #ffffff;
+}
+
+
+/* services section */
+
+.services-container{
+    /* border: 1px solid black; */
+    width: 100vw;
+    margin-top: 25px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.services-heading{
+    font-size: 55px;
+    font-family: 'Roboto Condensed';
+    /* font-family: 'Chivo Mono'; */
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.card1{
+    height: 350px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    background: #000;
+    margin: 40px;
+}
+
+.card-image{
+    height: 180px;
+    width: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.content{
+    margin-top: 5px;
+}
+
+.content .h2{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Raleway';
+}
+
+.content p{
+    color: #cdd6f7;
+    font-size: 1.05em;
+    font-family: "Roboto Condensed";
+    margin-top: 5px;
+}
+
+.content a{
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: #cdd6f7;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: "Poppins";
+    margin-top: 5px;
+}
+
+.content a:hover{
+    background-color: red;
+    color: #ffffff;
+}
+
+
+/* Contact us */
+
+.contact-us-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 650px;
+    margin-top: 25px;
+}
+
+.contact-us-heading{
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.contact-us-description{
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 500px;
+    padding: 20px;
+}
+
+.right-container form h2{
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid grey;
+    background: transparent;
+    width: 90%;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+textarea{
+    border: none;
+    border-bottom: 1px solid grey;
+    background: transparent;
+    width: 90%;
+    outline: none;
+    margin-top: 35px;
+}
+
+select {
+    width: 60%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+option{
+    font-family: "Sans Serif";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+select:focus {
+    border-color: #4CAF50;
+}
+
+
+select option {
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.form-submit-btn{
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: #cdd6f7;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: "Poppins";
+    margin-top: 5px;
+    border: none;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-submit-btn:hover{
+    background-color: red;
+    color: #ffffff;
+}
+
+
+/* Footer Section  */
+
+.footer-section{
+    height: 280px;
+    background-color: #000;
+    width: 100vw;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    /* border: 1px solid white; */
+}
+
+.contact a{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact a:hover{
+    text-decoration: underline;
+    color: red;
+    text-decoration-color: white;
+}
+
+.contact-heading{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-bottom: 8px;
+}
+
+.address{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Raleway';
+}
+
+.search-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.search-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.news-search{
+    height: 40px;
+    width: 250px;
+    border: 1px solid #ffffff;
+    background: #e7eee3;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.form-submit-btn{
+    height: 40px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.social-icons i{
+    margin: 8px;
+    cursor: pointer;
+    color: #e7eee3;
+}
+.social-icons i:hover{
+    color: red;
+    
+}
+
+.copyright{
+    background-color: #000;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    color: white;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Transitions */
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    transform: translateX(-100%);
+} 
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+.section1:nth-child(2){
+    transition-delay: 100ms;
+}
+.section1:nth-child(3){
+    transition-delay: 300ms;
+}
+.section1:nth-child(4){
+    transition-delay: 500ms;
+}
+.section1:nth-child(5){
+    transition-delay: 700ms;
+}
+.section1:nth-child(6){
+    transition-delay: 900ms;
+}
+.section1:nth-child(7){
+    transition-delay: 1200ms;
+}
+
+.card:nth-child(2){
+    transition-delay: 200ms;
+}
+.card:nth-child(3){
+    transition-delay: 500ms;
+}
+.card:nth-child(4){
+    transition-delay: 800ms;
+}
